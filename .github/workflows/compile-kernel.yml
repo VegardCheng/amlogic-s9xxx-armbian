@@ -75,6 +75,15 @@ on:
         options:
           - -ophub
           - -yourname
+      kernel_patch:
+        required: false
+        default: true
+        type: boolean
+      auto_patch:
+        required: false
+        default: true
+        type: boolean
+          
 
 env:
   TZ: America/New_York
